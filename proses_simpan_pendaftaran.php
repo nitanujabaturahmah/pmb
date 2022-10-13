@@ -11,10 +11,9 @@
 			${$key} = $val;
 		}
 
-// tabel berelasi antara tb_camaba dan tb_ortu
-		$sql	= "INSERT INTO tb_camaba tb_ortu VALUES(null,'$nisn', '$nama', '$tempat_lahir', '$tanggal_lahir' ,'$jenis_kelamin'
-		, '$jurusan', '$alamat', '$nohp', '$nama_ayah', '$pekerjaan_ayah','$penghasilan_ayah', '$no_ayah', '$nama_ibu'
-		, '$pekerjaan_ibu','$penghasilan_ibu', '$no_ibu', '$alamat_ortu','','','','','','')";
+
+		$sql	= "INSERT INTO tb_pendaftaran VALUES(null,'$nisn', '$nama', '$nama_panggil', '$tempat_lahir', '$tanggal_lahir' ,'$jenis_kelamin', '$jurusan', '$alamat', '$nohp', 
+				  '$nama_ayah', '$pekerjaan_ayah','$penghasilan_ayah', '$no_ayah', '$nama_ibu', '$pekerjaan_ibu','$penghasilan_ibu', '$no_ibu', '$alamat_ortu')";
 
 		$exec 	= mysqli_query($conn,$sql);
 
