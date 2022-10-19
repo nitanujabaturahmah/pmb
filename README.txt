@@ -35,8 +35,8 @@ b. Proses pembayaran Pendaftaran
 
 *USER
 exemple
-email 		: 	nita07putri@gmail.com
-password 	:	semangat
+email 		: maryam2@gmail.com
+password 	:	19maryam
 
 
 *ADMIN
